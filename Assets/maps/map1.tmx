@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="9" height="7" tilewidth="16" tileheight="16" infinite="0" backgroundcolor="#000000" nextlayerid="5" nextobjectid="1">
+ <editorsettings>
+  <export target="map1.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="dungeon_16" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="../images/soulpieces_tiles.png" width="256" height="256"/>
+ </tileset>
+ <layer id="3" name="bg" width="9" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAMWKmERYnAqkRgUyKwKxEYALAPBq8=
+  </data>
+ </layer>
+ <layer id="2" name="near_bg" width="9" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAMDKHYCIltiCYOA45Y9BujiTtCxdABSFwMi3qYGbjMJxcAAH9iBCQ=
+  </data>
+ </layer>
+ <layer id="1" name="ground" width="9" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAADiDmhGJqAHYC8opArATEyiSaywjFTDjkQeLMUAxSJ4IFg8QBVzgA+g==
+  </data>
+ </layer>
+ <layer id="4" name="decor" width="9" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjagAULJhYAAAUMABU=
+  </data>
+ </layer>
+</map>

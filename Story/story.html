@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-10-26 Tue 08:51 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Soul Pieces</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Fredric" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="book.js" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Soul Pieces</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org13fa906">1. The Jump</a></li>
+<li><a href="#orgc8b19f0">2. Ferryman</a></li>
+<li><a href="#orga16815e">3. The Stygian Weir</a></li>
+<li><a href="#org3665565">4. The Well</a></li>
+<li><a href="#org7ec7ee1">5. The Reaper</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org13fa906" class="outline-2">
+<h2 id="org13fa906"><span class="section-number-2">1</span> The Jump</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+It's late and you're walking the Blackmoore graveyard again. The twin gargoyles' eyes atop the giant mausoleum follow you as you wind your between graves raising from the marsh. The gargoyles' hands tightly grip the edge of the tall mausoleum where she jumped so many years ago.
+</p>
+
+<p>
+The cemetery was build 200 years ago, longer than the town's existence. It was set up by French settlers in the region around St. Louis as a family plot, and then expanded into public use long after the family line died out in the late 1800's. You stop before a grave. A baby's grave. A solitary phrase is engraved below the year 1953 - 'I will see you soon'.
+</p>
+
+<p>
+She was the light in your life. A beacon of knowledge and wisdom in a heartless world. She had jumped, but the fall didn't kill her. Her body was ripped open on the Victorian era fence. The sharply pointed spade tips left her corpse shredded in pieces on the hallowed earth. You were there shortly after the ambulance arrived. The clean up crew picked up as many pieces as they could, stuffing them into sanitary white bags, while the smaller pieces were casually sprayed down with a hose. Blood and flesh flushed into the storm drain.
+</p>
+
+<p>
+The mausoleum where her body rests looms atop the hill in the center of the graveyard. You crane your neck to see the top, lost in the darkness of night. The twin gargoyles' eyes still stare down. Are you really going up, to see what she saw that night? You yearn for her so much. You hope by replaying her actions, you can be with her again.
+</p>
+
+<p>
+Slabs of rock jut from the building of death at regular intervals. With some patience, you climb the mausoleum. Bats flutter around you as you find your footing. Suddenly, you are at the top, between the two gargoyles. You hold your breath, close your eyes and leap. The last thing you remember hearing yourself cry out her name before slamming unconscious into the ground.
+</p>
+
+<p>
+"&#x2026;if you can't come back to me, then I'll come to you"
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc8b19f0" class="outline-2">
+<h2 id="orgc8b19f0"><span class="section-number-2">2</span> Ferryman</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+You awake on the bank of the river Styx. A man carrying a staff turns to look at you. His face has a glow to it, very much unlike the dark grays you see around you. "Oh, your time so soon? I wasn't expecting you to be here just yet."
+</p>
+
+<p>
+"I am looking for someone. Her name is&#x2026;" you whisper her name quietly under your breath, so softly that the ferryman grimaces in an attempt to hear. The ferryman raises an eyebrow. "I'm afraid she didn't come to me whole. Her pieces are scattered around here." The ferryman motions downstream. "Her body is still out there, somewhere."
+</p>
+
+<p>
+The ferryman raises his staff, and a symbol appears in the dirt. Triangular in shape, with a circle centered on each vertex.
+</p>
+
+<p>
+"I can only take the whole body across. Return the pieces of her soul, and I will ferry you both. But, hark my words! There are wild beasts that feast on the sorrowful souls of dead that have yet to cross. Be wary of them, for they will not let you recover her soul without a fight."
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga16815e" class="outline-2">
+<h2 id="orga16815e"><span class="section-number-2">3</span> The Stygian Weir</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Dragging yourself in a haze along the riverbank, you come to an aquatic ossuary. Here the bones of the dead are dragged into the river Styx by underworld creatures, creating networks of caverns and subterranean weirs. The souls of the damned are funneled, caught and eaten within this dark place.
+</p>
+
+<p>
+You feel her presence inside as you scramble into the bone caves. The air is sulfurous, the way is dark. From deep below you hear a rattling gurgle of water passing over loose bones.
+</p>
+
+<p>
+You make your way down into the ossuary. Bits of flesh are still loosely hanging onto the bones that line the walls. The pathway inclines down, towards the river Styx, a staircase made of rib cages and filth.
+</p>
+
+<p>
+You sense her presence growing near. You come to an open chamber. A piece of her is there in the center. It glows bright purple and white, her favorite colors. A giant floating skull guards a fragment of her cherished soul, sucking on the fragment, its eye like small lights rolled back in its head.
+</p>
+
+<p>
+The skull watches your approach. He shoots a fireball at you, trying to keep you away. It misses, and you are able to leap up and strike the skull down, shattering it against the floor.
+</p>
+
+<p>
+Her soul piece is yours. You grab it with your hand and stuff it into your backpack, then make your way out of the Stygian weir.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3665565" class="outline-2">
+<h2 id="org3665565"><span class="section-number-2">4</span> The Well</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+You climb out of the Stygian weir with a fragment of your loved one's soul. You make your way along the shore to to the ferryman. The triangle and circles are still etched into the sand in front of him. You carefully place the soul in one of the circles, and as you do so the edges turn a light blue.
+</p>
+
+<p>
+"That way" says the ferryman, pointing his staff towards the nearby cliffs overlooking the river Styx. "The second piece you desire lays within the well at the top of the cliff."
+</p>
+
+<p>
+You ascend the cliffs, finding footholds where you can as you climb to the peak. As you reach the summit, you see a hole in the ground. As you peer into the hole, a flock of bats flies out, nearly knocking you off your feet. They circle overhead.
+</p>
+
+<p>
+You descend down into the hole, following the directions given to you by the ferryman. Whatever lies below, you will find her soul, challenging whatever this underworld throws at you.
+</p>
+
+<p>
+The descent is dark and grim. The thin passage is covered in slimy water, squeezed out from the rock layers. A cool smell of death emanates from the cylindrical well bored down into the cliff.
+</p>
+
+<p>
+The bottom of the well is flooded, but you see a glowing purple and white light in the bottom. Her favorite colors. Her soul must be there. You dive down to fetch it. It is deeper than you thought, but you grab it, and come back up to the surface.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7ec7ee1" class="outline-2">
+<h2 id="org7ec7ee1"><span class="section-number-2">5</span> The Reaper</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+You climb out of the well with the piece of her soul, and descend from the cliffs back to the shore of the river Styx. At long lost you return to the ferryman. He is surprised that you have found another piece, but dryly states that he knows not where the 3rd piece is.
+</p>
+
+<p>
+"Where can I find it?" you say, watching him hesitate for an answer.
+</p>
+
+<p>
+"Leave it here, and search the fields," he says, "it cannot be far."
+</p>
+
+<p>
+You notice something glowing purple and white in his cloak. Could it be, does he already have the third and final piece?
+</p>
+
+<p>
+"Give it to me, let me have her!" you shout at the ferryman.
+</p>
+
+<p>
+"What? No! You cannot take it from me, such a precious thing," he says, raising his staff. "You have no idea how hungry I am, I need it. Give them all to me!"
+</p>
+
+<p>
+The ferryman throws his staff, it whirls like a boomerang towards you. As you dodge the staff you notice he has dropped the third piece. You pick it up and dash towards the triangular symbol etched in the sand. Placing the remaining souls into the circles, you see a spiral of purple and white light appear in the center. The ferryman is blinded and blown out to the river in a flash of light, and a figure appears in the center of the triangle.
+</p>
+
+<p>
+"Hello, mom? Mom, can you hear me?"
+</p>
+
+<p>
+THE END
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Fredric</p>
+<p class="date">Created: 2021-10-26 Tue 08:51</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

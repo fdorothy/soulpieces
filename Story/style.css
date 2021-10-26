@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+#content {
+    margin: auto;
+    max-width: 800px;
+    font-family: "Garamond";
+}
+
+#table-of-contents {
+    display: none;
+}
+
+h1 {
+    display: none;
+    color: white;
+}
+
+h2 {
+    display: none;
+    color: white;
+}
+
+p {
+    display: none;
+    color: white;
+}
+
+.fade_in {
+    display: unset;
+    text-align: center;
+    animation: center_fade_in_keyframes 1.0s;
+}
+
+@keyframes center_fade_in_keyframes {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1.0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #content {
+        width: 100%;
+    }
+}
