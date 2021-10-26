@@ -15,21 +15,23 @@ body {
 h1 {
     display: none;
     color: white;
+    text-align: center;
 }
 
 h2 {
     display: none;
     color: white;
+    text-align: left;
 }
 
 p {
     display: none;
     color: white;
+    text-align: justify;
 }
 
 .fade_in {
-    display: unset;
-    text-align: center;
+    display: block;
     animation: center_fade_in_keyframes 1.0s;
 }
 
