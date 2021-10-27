@@ -1,5 +1,8 @@
 body {
+    //background-color: #08141e;
     background-color: black;
+    color: #f6d6bd;
+    font-size: large;
 }
 
 #content {
@@ -8,30 +11,25 @@ body {
     font-family: "Garamond";
 }
 
-#table-of-contents {
-    display: none;
-}
-
 h1 {
-    display: none;
-    color: white;
     text-align: center;
 }
 
 h2 {
-    display: none;
-    color: white;
     text-align: left;
 }
 
 p {
-    display: none;
-    color: white;
     text-align: justify;
 }
 
+
+.center {
+    margin: auto
+}
+
 .fade_in {
-    display: block;
+    display: block !important;
     animation: center_fade_in_keyframes 1.0s;
 }
 

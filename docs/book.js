@@ -1,31 +1,75 @@
-function OnClickNext()
+var story = null
+var root = null
+
+function clear()
 {
-  console.log('next')
+  while (root.firstChild) {
+    root.removeChild(root.firstChild);
+  }
 }
 
-function OnClickPrev()
+function addText(txt)
 {
-  console.log('prev')
+  const elem = document.createElement('p')
+  elem.classList.add('fade_in')
+  elem.innerHTML = txt
+  root.appendChild(elem)
 }
 
-function showParagraph(elem)
+function addImage(url)
 {
-  return () => {
-    elem.className += " fade_in"
+  const elem = document.createElement('img')
+  elem.classList.add('fade_in')
+  elem.classList.add('center')
+  elem.src = url
+  root.appendChild(elem)
+}
+
+function addChoice(index, text)
+{
+  const elem = document.createElement('button')
+  elem.classList.add('fade_in')
+  elem.classList.add('center')
+  elem.innerHTML = text
+  elem.onclick = function() {selectChoice(index)}
+  root.appendChild(elem)
+}
+
+function selectChoice(index)
+{
+  clear()
+  story.ChooseChoiceIndex(index)
+  continueStory(story)
+}
+
+function continueStory(story)
+{
+  const text = story.Continue()
+  const found = text.match(/\[\[(.*)\]\]/)
+  if (found !== null) {
+    addImage(found[1])
+  } else {
+    addText(text)
+  }
+  if (story.canContinue) {
+    setTimeout(() => continueStory(story), 400)
+  } else {
+    for (let i=0; i<story.currentChoices.length; i++) {
+      console.log(`${i} ${story.currentChoices[i].text}`)
+      addChoice(i, story.currentChoices[i].text)
+    }
   }
 }
 
 function main()
 {
-  const elem = document.getElementsByTagName('h1')
-  for (let i=0; i<elem.length; i++)
-    elem[i].className = "title fade_in"
-  const paragraphs = document.getElementsByTagName('p')
-  for (let i=0; i<paragraphs.length; i++) {
-    setTimeout(showParagraph(paragraphs[i]), 1000 * i)
-  }
+  root = document.getElementById('root')
+
+  fetch('story.ink.json')
+    .then(response => response.text())
+    .then((storyContent) => {
+      console.log(storyContent)
+      story = new inkjs.Story(storyContent)
+      continueStory(story)
+    })
 }
-
-setTimeout(main, 2000)
-
-console.log('hello, world')

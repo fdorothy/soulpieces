@@ -1,14 +1,24 @@
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
-#+HTML_HEAD: <script src="book.js" >
-#+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-#+TITLE: Soul Pieces
-#+AUTHOR: Fredric
+-> title
 
-** The Jump
-   
+== title
+
+Soul Pieces
+
+[[./images/heart_loading.gif]]
+
+ + [Start Game] -> jump
+
+== jump
+
+Chapter 1: The Jump
+
 It's late and you're walking the Blackmoore graveyard again. The twin gargoyles' eyes atop the giant mausoleum follow you as you wind your between graves raising from the marsh. The gargoyles' hands tightly grip the edge of the tall mausoleum where she jumped so many years ago.
 
+[[./images/gargoyle1.png]]
+
 The cemetery was build 200 years ago, longer than the town's existence. It was set up by French settlers in the region around St. Louis as a family plot, and then expanded into public use long after the family line died out in the late 1800's. You stop before a grave. A baby's grave. A solitary phrase is engraved below the year 1953 - 'I will see you soon'.
+
+[[./images/grave.png]]
 
 She was the light in your life. A beacon of knowledge and wisdom in a heartless world. She had jumped, but the fall didn't kill her. Her body was ripped open on the Victorian era fence. The sharply pointed spade tips left her corpse shredded in pieces on the hallowed earth. You were there shortly after the ambulance arrived. The clean up crew picked up as many pieces as they could, stuffing them into sanitary white bags, while the smaller pieces were casually sprayed down with a hose. Blood and flesh flushed into the storm drain.
 
@@ -18,7 +28,11 @@ Slabs of rock jut from the building of death at regular intervals. With some pat
 
 "...if you can't come back to me, then I'll come to you"
 
-** Ferryman
+ + [Continue] -> ferryman
+
+== ferryman
+
+Chapter 2: The Ferryman
 
 You awake on the bank of the river Styx. A man carrying a staff turns to look at you. His face has a glow to it, very much unlike the dark grays you see around you. "Oh, your time so soon? I wasn't expecting you to be here just yet."
 
@@ -28,7 +42,11 @@ The ferryman raises his staff, and a symbol appears in the dirt. Triangular in s
 
 "I can only take the whole body across. Return the pieces of her soul, and I will ferry you both. But, hark my words! There are wild beasts that feast on the sorrowful souls of dead that have yet to cross. Be wary of them, for they will not let you recover her soul without a fight."
 
-** The Stygian Weir
+ + [Conitnue] -> weir
+
+== weir
+
+Chapter 3: The Stygian Weir
 
 Dragging yourself in a haze along the riverbank, you come to an aquatic ossuary. Here the bones of the dead are dragged into the river Styx by underworld creatures, creating networks of caverns and subterranean weirs. The souls of the damned are funneled, caught and eaten within this dark place.
 
@@ -42,7 +60,12 @@ The skull watches your approach. He shoots a fireball at you, trying to keep you
 
 Her soul piece is yours. You grab it with your hand and stuff it into your backpack, then make your way out of the Stygian weir.
 
-** The Well
+ + [Continue] -> well
+
+== well
+
+Chapter 4: The Well
+
 You climb out of the Stygian weir with a fragment of your loved one's soul. You make your way along the shore to to the ferryman. The triangle and circles are still etched into the sand in front of him. You carefully place the soul in one of the circles, and as you do so the edges turn a light blue.
 
 "That way" says the ferryman, pointing his staff towards the nearby cliffs overlooking the river Styx. "The second piece you desire lays within the well at the top of the cliff."
@@ -55,7 +78,11 @@ The descent is dark and grim. The thin passage is covered in slimy water, squeez
 
 The bottom of the well is flooded, but you see a glowing purple and white light in the bottom. Her favorite colors. Her soul must be there. You dive down to fetch it. It is deeper than you thought, but you grab it, and come back up to the surface.
 
-** The Reaper
+ + [Continue] -> reaper
+ 
+== reaper
+
+Chatper 5: The Reaper
 
 You climb out of the well with the piece of her soul, and descend from the cliffs back to the shore of the river Styx. At long lost you return to the ferryman. He is surprised that you have found another piece, but dryly states that he knows not where the 3rd piece is.
 
@@ -74,3 +101,5 @@ The ferryman throws his staff, it whirls like a boomerang towards you. As you do
 "Hello, mom? Mom, can you hear me?"
 
 THE END
+
+-> title
