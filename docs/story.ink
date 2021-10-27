@@ -2,27 +2,50 @@
 
 == title
 
-Soul Pieces
-
 [[./images/heart_loading.gif]]
 
- + [Start Game] -> jump
+ + [Start] -> jump
 
 == jump
 
 Chapter 1: The Jump
 
-It's late and you're walking the Blackmoore graveyard again. The twin gargoyles' eyes atop the giant mausoleum follow you as you wind your between graves raising from the marsh. The gargoyles' hands tightly grip the edge of the tall mausoleum where she jumped so many years ago.
+[[./images/olive.png]]
+
+ + [Continue]
+ -
 
 [[./images/gargoyle1.png]]
 
-The cemetery was build 200 years ago, longer than the town's existence. It was set up by French settlers in the region around St. Louis as a family plot, and then expanded into public use long after the family line died out in the late 1800's. You stop before a grave. A baby's grave. A solitary phrase is engraved below the year 1953 - 'I will see you soon'.
+It's late and you're walking the Blackmoore graveyard again. The twin gargoyles' eyes atop the giant mausoleum follow you as you wind between graves. The gargoyles' hands tightly grip the edge of the tall mausoleum where she jumped so many years ago.
+
+ + [Continue]
+ -
 
 [[./images/grave.png]]
 
-She was the light in your life. A beacon of knowledge and wisdom in a heartless world. She had jumped, but the fall didn't kill her. Her body was ripped open on the Victorian era fence. The sharply pointed spade tips left her corpse shredded in pieces on the hallowed earth. You were there shortly after the ambulance arrived. The clean up crew picked up as many pieces as they could, stuffing them into sanitary white bags, while the smaller pieces were casually sprayed down with a hose. Blood and flesh flushed into the storm drain.
+The cemetery was built 200 years ago, longer than the town's existence. It was set up by French settlers in the region around St. Louis as a family plot, and then expanded into public use long after the family line died out in the late 1800's. You stop before a grave. A baby's grave. A solitary phrase is engraved below the year 1953 - 'I will see you soon'.
+
+ + [Continue]
+ -
+
+[[./images/olive.png]]
+
+She was the light in your life. A beacon of knowledge and wisdom in a heartless world. She had jumped, but the fall didn't kill her. Her body was ripped open on the Victorian era fence. The sharply pointed spade tips left her corpse shredded in pieces on the hallowed earth. You were there shortly after the ambulance arrived. The clean up crew picked up as many pieces as they could, stuffing them into sanitary white bags, while the smaller pieces were casually sprayed down with a hose.
+
+Blood and flesh flushed into the storm drain.
+
+ + [Continue]
+ -
+
+[[./images/gargoyle1.png]]
 
 The mausoleum where her body rests looms atop the hill in the center of the graveyard. You crane your neck to see the top, lost in the darkness of night. The twin gargoyles' eyes still stare down. Are you really going up, to see what she saw that night? You yearn for her so much. You hope by replaying her actions, you can be with her again.
+
+ + [Continue]
+ -
+
+[[./images/bat.gif]]
 
 Slabs of rock jut from the building of death at regular intervals. With some patience, you climb the mausoleum. Bats flutter around you as you find your footing. Suddenly, you are at the top, between the two gargoyles. You hold your breath, close your eyes and leap. The last thing you remember hearing yourself cry out her name before slamming unconscious into the ground.
 
@@ -42,7 +65,7 @@ The ferryman raises his staff, and a symbol appears in the dirt. Triangular in s
 
 "I can only take the whole body across. Return the pieces of her soul, and I will ferry you both. But, hark my words! There are wild beasts that feast on the sorrowful souls of dead that have yet to cross. Be wary of them, for they will not let you recover her soul without a fight."
 
- + [Conitnue] -> weir
+ + [Continue] -> weir
 
 == weir
 
