@@ -1,3 +1,11 @@
+.about > p > i {
+    color: gray !important;
+    
+}
+.about > p {
+    text-align: center;
+}
+
 body {
     //background-color: #08141e;
     background-color: black;
@@ -21,11 +29,31 @@ h2 {
     line-height: 10px;
 }
 
+h3 {
+    text-align: center;
+    line-height: 10px;
+}
+
 p {
     text-align: justify;
 }
 
+button {
+  background-color: #20394f; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 5px auto !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 
+i {
+    color: white;
+}
+ 
 .center {
     margin: auto
 }

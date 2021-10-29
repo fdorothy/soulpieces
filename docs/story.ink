@@ -3,17 +3,30 @@
 = continue
 
  + [Continue]
+ + [Table of Contents] -> toc
  - ->->
+
+= toc
+
+ + [Title] -> title
+ + [Chapter 1: The Jump] -> jump
+ + [Chapter 2: The Ferryman] -> ferryman
+ + [Chapter 3: The Dam] -> dam
+ + [Chapter 4: The Well] -> well
+ + [Chapter 5: The End] -> reaper
 
 == title
 
 [[./images/heart_loading.gif]]
 
+<h3><i>a short story of loss</i></h3>
+
  + [Start] -> jump
+ + [Table of Contents] -> toc
 
 == jump
 
-<h2>Chapter 1/5: The Jump</h2>
+<h2>Chapter 1 of 5: The Jump</h2>
 
 [[./images/olive.png]]
 
@@ -61,11 +74,11 @@ Slabs of rock jut from the brickwork like a ladder. With some patience, Deidre c
 
 <i>All water winds up back in the ocean</i>
 
- + [Continue] -> ferryman
+-> continue -> ferryman
 
 == ferryman
 
-<h2>Chapter 2/5: The Ferryman</h2>
+<h2>Chapter 2 of 5: The Ferryman</h2>
 
 Deidre awakes on the bank of a dark river. Small glowing lights flicker beneath the surface, flowing downstream. Washed up bones from all manner of creatures lay on the riverbank. A man stands near the river leaning on a staff. Behind the man a wooden ferry sits in the water, tied off to a heap of nearby bones. The ferryman turns to look at Deidre. His face has a glow to it, very much unlike the dark grays pebbles on the river bank.
 
@@ -77,11 +90,11 @@ The ferryman raises his staff, and a symbol appears in the dirt ahead of him. Tr
 
 "I can only take the whole body across. She arrived in pieces. Return the pieces of her soul, and I will ferry you both. But…” he pauses as a wry smirk creeps across his face, “there are beasts here that gnaw on the souls of the dead yet to cross. Be wary of them. They will not let you recover her soul without a fight."
 
- + [Continue] -> dam
+-> continue -> dam
 
 == dam
 
-<h2>Chapter 3/5: The Dam</h2>
+<h2>Chapter 3 of 5: The Dam</h2>
 
 Deidre drags herself in a haze along the riverbank, coming to a dammed section of the dark river. Here the bones of the dead are dragged into the flow by underworld creatures, creating a massive dam that spans across the river. The souls of the dead are funneled, caught and eaten by aquatic demons within the labyrinthine cavities of this wet, dark place.
 
@@ -95,11 +108,11 @@ The skull watches Deidre approach. It shoots a fireball at her, trying to keep h
 
 Deidre picks up a piece of her beloved’s soul, stuffing it in her backpack and makes her way out of the bone dam.
 
- + [Continue] -> well
+-> continue -> well
 
 == well
 
-<h2>Chapter 4/5: The Well</h2>
+<h2>Chapter 4 of 5: The Well</h2>
 
 Deidre climbs out of the dam with a fragment of her loved one's soul. She makes her way along the shore to the ferryman. The triangle and circles are still etched into the sand in front of him. She carefully places the soul in one of the circles, and as she does so the edges turn a light blue.
 
@@ -113,11 +126,11 @@ The descent is dark and grim. The thin passage is covered in slimy water, squeez
 
 The bottom of the well is flooded, but she sees a glowing purple and white light in the bottom. Her beloved’s soul must be there. Deidre dives down to fetch it. It is deeper than she thought, but she grabs it, and comes back up to the surface.
 
- + [Continue] -> reaper
+-> continue -> reaper
  
 == reaper
 
-<h2>Chapter 5/5: The Reaper</h2>
+<h2>Chapter 5 of 5: The End</h2>
 
 Deidre climbs out of the well with the piece of her beloved’s soul. After descending from the cliffs back to the shore of the dark river, she returns to the ferryman.
 
@@ -149,6 +162,6 @@ The figure stares blankly at Deidre, then lets out a moan.
 
 Deidre holds her mother, braindead from death as she gazes across the river, wondering what lies on the other side.
 
-<b>THE END</b>
+<h3>THE END</h3>
 
--> title
+ + [Title] -> title
