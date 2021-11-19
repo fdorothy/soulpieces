@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="9" height="6" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="1">
+ <tileset firstgid="1" source="../../Images/soulpieces.tsx"/>
+ <layer id="4" name="bg2" width="9" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACmNlYGBgpQIWJQKrEoFNicCuRGAA2prK9tgAAAA=
+  </data>
+ </layer>
+ <layer id="3" name="bg1" width="9" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACmNgwA2MkdiOONgMJKjJwqImE0kOBAyJwNjUobsbAP0T3j3YAAAA
+  </data>
+ </layer>
+ <layer id="1" name="collision" width="9" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACvvEwMDAxIAAIPYnKGZAorGBb1CMTw0MEKMGBJ4C8Ssk/nOoGDJmZMB0MyOaOQAHhd0U2AAAAA==
+  </data>
+ </layer>
+ <layer id="2" name="fg" width="9" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACmNgwA2K8cjRCpTgESvBIY8NAACkayO32AAAAA==
+  </data>
+ </layer>
+</map>

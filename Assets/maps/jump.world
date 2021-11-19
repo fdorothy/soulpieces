@@ -1,0 +1,104 @@
+{
+    "maps": [
+        {
+            "fileName": "jump4.tmx",
+            "height": 96,
+            "width": 144,
+            "x": 160,
+            "y": 0
+        },
+        {
+            "fileName": "jump5.tmx",
+            "height": 96,
+            "width": 144,
+            "x": 16,
+            "y": 0
+        },
+        {
+            "fileName": "jump6.tmx",
+            "height": 96,
+            "width": 160,
+            "x": 160,
+            "y": 96
+        },
+        {
+            "fileName": "jump7.tmx",
+            "height": 96,
+            "width": 144,
+            "x": 304,
+            "y": 0
+        },
+        {
+            "fileName": "jump8.tmx",
+            "height": 96,
+            "width": 144,
+            "x": 304,
+            "y": 96
+        },
+        {
+            "fileName": "jump9.tmx",
+            "height": 96,
+            "width": 144,
+            "x": 448,
+            "y": 0
+        },
+        {
+            "fileName": "jump/jump4.tmx",
+            "height": 96,
+            "width": 144,
+            "x": 224,
+            "y": 48
+        },
+        {
+            "fileName": "jump/jump5.tmx",
+            "height": 0,
+            "width": 0,
+            "x": 80,
+            "y": 48
+        },
+        {
+            "fileName": "jump/jump6.tmx",
+            "height": 96,
+            "width": 144,
+            "x": 224,
+            "y": 144
+        },
+        {
+            "fileName": "jump/jump7.tmx",
+            "height": 96,
+            "width": 144,
+            "x": 368,
+            "y": 48
+        },
+        {
+            "fileName": "jump/jump8.tmx",
+            "height": 96,
+            "width": 144,
+            "x": 368,
+            "y": 144
+        },
+        {
+            "fileName": "jump/jump9.tmx",
+            "height": 96,
+            "width": 144,
+            "x": 512,
+            "y": 48
+        },
+        {
+            "fileName": "jump/jump10.tmx",
+            "height": 96,
+            "width": 144,
+            "x": 512,
+            "y": -48
+        },
+        {
+            "fileName": "jump/jump11.tmx",
+            "height": 256,
+            "width": 288,
+            "x": 224,
+            "y": -208
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

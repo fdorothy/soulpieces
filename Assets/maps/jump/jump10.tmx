@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="9" height="6" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" source="../../Images/soulpieces.tsx"/>
+ <layer id="2" name="bg" width="9" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxzZWBgcCWAWYnAokRgVSKwKRGYkHtBGAByCQjv
+  </data>
+ </layer>
+ <layer id="1" name="Tile Layer 1" width="9" height="6">
+  <data encoding="base64" compression="zlib">
+   eJz7xMDA8IkAxgbSkDA11aTjUJMOxTA1vwiYAwBPThUB
+  </data>
+ </layer>
+ <layer id="3" name="Tile Layer 3" width="9" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYEEEj8wAh2ACx
+  </data>
+ </layer>
+</map>
